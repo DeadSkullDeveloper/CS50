@@ -1,0 +1,19 @@
+sort1 uses: BUBBLE SORT
+
+How do you know?: Time complexity is O(n^2) same as in selection sort.
+However, omega isn't same. For bubble sort, with given n^2 there are n steps, while in selection sort,
+both time and steps are n^2.
+
+sort2 uses: MERGED SORT
+
+How do you know?: Time complexity is O(n log n).
+Since result are really fast withing large and small values, I say sort2 is merged sort.
+It grows pretty much slow compared to increasing number of data samples(to be sorted).
+
+sort3 uses: SELECTION SORT
+
+How do you know?: Time complexity is O(n^2).
+With increasing number of steps(n^2), there is equal raise in time complexity(n^2), so algorithm takes more time
+per each step in large number of data samples(to be sorted).
+I used Microsoft Excel and manually inputed computation time for sort1 and sort3.
+With a graph of that data, I came to these conclusions.
